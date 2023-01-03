@@ -80,6 +80,7 @@ if __name__ == '__main__':
 	def x(t):
 		x1 = np.exp(2j * pi * f1 * t - alpha * pi * (t-t1)**2)
 		x2 = np.exp(2j * pi * f2 * t - alpha * pi * (t-t2)**2)
+		return x1 + x2
 
 	dt = 0.05
 	dtau = dt
